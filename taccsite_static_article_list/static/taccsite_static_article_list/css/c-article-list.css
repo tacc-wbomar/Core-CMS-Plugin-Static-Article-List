@@ -1,0 +1,22 @@
+/*
+Article List
+
+A list of article previews (which may each be a `c-article-preview`).
+
+Markup:
+<article class="c-article-list">
+  <h2 class="c-article-list__title">
+    News
+  </h2>
+  <article class="c-article-list__item">...</article>
+  <article class="c-article-list__item">...</article>
+  <article class="c-article-list__item">...</article>
+  <footer class="c-article-list__footer">
+    <a class="c-article-list__link" href="/more">
+      <i class="c-article-list__link-icon  icon icon-push-right"></i>
+      <span>See All</span>
+    </a>
+  </footer>
+</article>
+*/
+/* SEE: https://github.com/tacc-wbomar/Core-CMS-Plugin-Static-Article-Preview */
