@@ -49,7 +49,7 @@ _This plugin only exists because of the unavailaibility of a solution to sync ne
 
 ## Caveats
 
-- Requires [`djangocms_link`][dcms-link].\*
+1. Requires [`djangocms_link`][dcms-link].\*
 
 > \* Support is optional but plugin is assummed, so plugin is required. This could change in a future release.
 
