@@ -1,7 +1,7 @@
 from cms.plugin_pool import plugin_pool
 from django.utils.translation import gettext_lazy as _
 
-# TODO: Only import if plugin is installed
+# TODO: Consider only importing if plugin is installed
 from djangocms_link.cms_plugins import LinkPlugin
 
 from taccsite_cms.contrib.helpers import (
@@ -28,7 +28,7 @@ def get_style_classname(value):
 
 # Abstracts
 
-# TODO: Only extend if plugin is installed
+# TODO: Consider only extending if plugin is installed
 class AbstractArticleListPlugin(LinkPlugin):
     """
     Components > "Article List" Plugin
@@ -52,7 +52,7 @@ class AbstractArticleListPlugin(LinkPlugin):
                 ('layout_type', 'style_type')
             )
         }),
-        # TODO: Only render if plugin is installed
+        # TODO: Consider only rendering if plugin is installed
         (_('Footer link'), {
             'classes': ('collapse',),
             'description': 'The "See All" link at the bottom of the list. "Display name" is the text.',
@@ -86,7 +86,7 @@ class AbstractArticleListPlugin(LinkPlugin):
         add_classname_to_instances('c-article-list__item', instance.child_plugin_instances)
 
         context.update({
-            # TODO: Only provide if plugin is installed
+            # TODO: Consider only exposing if plugin is installed
             'link_url': instance.get_link(),
             'link_text': instance.name,
             'link_target': instance.target

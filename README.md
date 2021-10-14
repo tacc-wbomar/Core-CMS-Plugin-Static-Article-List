@@ -51,9 +51,7 @@ _This plugin only exists because of the unavailaibility of a solution to sync ne
 
 - Requires [`djangocms_link`][dcms-link].\*
 
-> \* Support is optional, but plugin is required. The requirement should be dropped in a future release.
->
-> † The only way to list articles is via this child plugin.
+> \* Support is optional but plugin is assummed, so plugin is required. This could change in a future release.
 
 
 

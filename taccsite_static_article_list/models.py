@@ -3,7 +3,7 @@ from django.utils.translation import gettext_lazy as _
 from django.utils.encoding import force_text
 from django.db import models
 
-# TODO: Only import if plugin is installed
+# TODO: Consider only importing if plugin is installed
 from djangocms_link.models import AbstractLink
 
 from taccsite_cms.contrib.helpers import (
@@ -43,7 +43,7 @@ STYLE_CHOICES = (
 
 # Models
 
-# TODO: Only extend if plugin is installed
+# TODO: Consider only extending if plugin is installed
 class TaccsiteArticleList(AbstractLink):
     """
     Components > "Article List" Model
@@ -78,6 +78,7 @@ class TaccsiteArticleList(AbstractLink):
 
 
     # Parent
+    # TODO: Consider only supporting link if plugin is installed
 
     link_is_optional = True
 
