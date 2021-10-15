@@ -3,8 +3,9 @@
 
 This plugin renders a static list of article previews.
 
-- __`__plugin_name__`__: `taccsite_static_article_list`
-- __`__PluginName__`__: `TaccsiteArticleList`
+- __`__dist-name__`__: `taccsite_static_article_list`
+- __`__package_name__`__: `taccsite_static_article_list`
+- __`__ClassName__`__: `TaccsiteArticleList`
 - __"Plugin Name"__: "Article List (Static)"
 
 <details><summary>Intent</summary>
