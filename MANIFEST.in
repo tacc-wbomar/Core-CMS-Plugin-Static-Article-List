@@ -1,5 +1,5 @@
 include LICENSE
 include README.md
-recursive-include taccsite_static_article_list/static *
-recursive-include taccsite_static_article_list/templates *
-recursive-include taccsite_static_article_list/migrations *
+recursive-include djangocms_tacc_static_article_list/static *
+recursive-include djangocms_tacc_static_article_list/templates *
+recursive-include djangocms_tacc_static_article_list/migrations *

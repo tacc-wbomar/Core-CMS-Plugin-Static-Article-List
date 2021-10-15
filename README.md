@@ -3,8 +3,8 @@
 
 This plugin renders a static list of article previews.
 
-- __`__dist-name__`__: `taccsite_static_article_list`
-- __`__package_name__`__: `taccsite_static_article_list`
+- __`__dist-name__`__: `djangocms-tacc-static-article-list`
+- __`__package_name__`__: `djangocms_tacc_static_article_list`
 - __`__ClassName__`__: `TaccsiteArticleList`
 - __"Plugin Name"__: "Article List (Static)"
 
@@ -22,13 +22,13 @@ _This plugin only exists because of the unavailaibility of a solution to sync ne
 
 1. Add instance of plugin to a page.
 1. Configure the plugin instance.
-1. Add instance(s) of [`taccsite_static_article_preview`][tacc-sa-preview] within this plugin.
+1. Add instance(s) of [`djangocms_tacc_static_article_preview`][tacc-sa-preview] within this plugin.
 1. See plugin render content that matches configuration.
 
 ## Features
 
 1. Render a list container, optionally with title and/or "See All" link.
-2. Renders supported, nested plugin instances of [`taccsite_static_article_preview`][tacc-sa-preview].
+2. Renders supported, nested plugin instances of [`djangocms_tacc_static_article_preview`][tacc-sa-preview].
     <details>
 
     | kind | description |
@@ -44,7 +44,7 @@ _This plugin only exists because of the unavailaibility of a solution to sync ne
 
     | feature | supported by |
     | :- | :- |
-    | a "See All" hyperlink | [`taccsite_data_list`][dcms-link] |
+    | a "See All" hyperlink | [`djangocms_tacc_data_list`][dcms-link] |
 
     </details>
 
